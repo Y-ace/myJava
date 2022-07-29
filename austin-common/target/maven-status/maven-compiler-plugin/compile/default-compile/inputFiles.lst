@@ -1,0 +1,17 @@
+D:\austin-ayu\austin-common\src\main\java\com\ayu\austin\enums\MessageType.java
+D:\austin-ayu\austin-common\src\main\java\com\ayu\austin\dto\ContentModel.java
+D:\austin-ayu\austin-common\src\main\java\com\ayu\austin\vo\BasicResultVO.java
+D:\austin-ayu\austin-common\src\main\java\com\ayu\austin\dto\MiniProgramContentModel.java
+D:\austin-ayu\austin-common\src\main\java\com\ayu\austin\dto\PushContentModel.java
+D:\austin-ayu\austin-common\src\main\java\com\ayu\austin\dto\SmsContentModel.java
+D:\austin-ayu\austin-common\src\main\java\com\ayu\austin\domain\SmsParam.java
+D:\austin-ayu\austin-common\src\main\java\com\ayu\austin\enums\ChannelType.java
+D:\austin-ayu\austin-common\src\main\java\com\ayu\austin\enums\RespStatusEnum.java
+D:\austin-ayu\austin-common\src\main\java\com\ayu\austin\enums\TemplateType.java
+D:\austin-ayu\austin-common\src\main\java\com\ayu\austin\constant\AustinConstant.java
+D:\austin-ayu\austin-common\src\main\java\com\ayu\austin\domain\TaskInfo.java
+D:\austin-ayu\austin-common\src\main\java\com\ayu\austin\dto\EmailContentModel.java
+D:\austin-ayu\austin-common\src\main\java\com\ayu\austin\dto\ImContentModel.java
+D:\austin-ayu\austin-common\src\main\java\com\ayu\austin\dto\OfficialAccountsContentModel.java
+D:\austin-ayu\austin-common\src\main\java\com\ayu\austin\enums\IdType.java
+D:\austin-ayu\austin-common\src\main\java\com\ayu\austin\enums\SmsStatus.java

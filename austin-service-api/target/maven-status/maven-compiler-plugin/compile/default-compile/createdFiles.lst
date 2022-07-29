@@ -1,0 +1,6 @@
+com\ayu\austin\domain\MessageParam.class
+com\ayu\austin\service\SendService.class
+com\ayu\austin\domain\SendRequest.class
+com\ayu\austin\domain\BatchSendRequest.class
+com\ayu\austin\enums\BusinessCode.class
+com\ayu\austin\domain\SendResponse.class

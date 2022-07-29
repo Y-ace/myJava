@@ -1,0 +1,14 @@
+com\ayu\austin\config\PrototypeBeanConfig.class
+com\ayu\austin\utils\GroupIdMappingUtils.class
+com\ayu\austin\handler\Handler.class
+com\ayu\austin\receiver\ReceiverStart.class
+com\ayu\austin\config\ThreadPoolConfig.class
+com\ayu\austin\handler\EmailHandler.class
+com\ayu\austin\pending\Task.class
+com\ayu\austin\handler\HandlerHolder.class
+com\ayu\austin\script\TencentSmsScript.class
+com\ayu\austin\handler\SmsHandler.class
+com\ayu\austin\receiver\Receiver.class
+com\ayu\austin\pending\TaskPendingHolder.class
+com\ayu\austin\script\SmsScript.class
+com\ayu\austin\receiver\RabbitMQConsumer.class

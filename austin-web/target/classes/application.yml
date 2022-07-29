@@ -1,0 +1,66 @@
+# 数据库相关的信息配置 TODO
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource      # 数据源的类型，可以更改为其他的数据源配置，比如druid
+    driver-class-name: com.mysql.jdbc.Driver      # mysql/MariaDB 的数据库驱动类名称
+    url: jdbc:mysql://192.168.16.101:3306/austin-ayu?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false
+    username: root
+    password: 123456
+    hikari:
+      connection-timeout: 30000               # 等待连接池分配连接的最大时间（毫秒），超过这个时长还没有可用的连接，则会抛出SQLException
+      minimum-idle: 5                         # 最小连接数
+      maximum-pool-size: 20                   # 最大连接数
+      auto-commit: true                       # 自动提交
+      idle-timeout: 600000                    # 连接超时的最大时长（毫秒），超时则会被释放（retired）
+      pool-name: DataSourceHikariCP           # 连接池的名字
+      max-lifetime: 18000000                  # 连接池的最大生命时长（毫秒），超时则会被释放（retired）
+      connection-test-query: SELECT 1
+
+  # kafka相关的信息配置 TODO
+  kafka:
+    bootstrap-servers: 192.168.160.128:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+    consumer:
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      auto:
+        offset:
+          reset: earliest
+      auto-commit-interval: 1000
+      enable-auto-commit: true
+  # rabbitmq相关配置
+#  rabbitmq:
+#    host: 192.168.160.127
+#    port: 5672
+#    username: admin
+#    password: admin
+#    virtual-host: austin
+
+
+# ok http配置信息
+ok:
+  http:
+    connect-timeout: 30
+    read-timeout: 30
+    write-timeout: 30
+    max-idle-connections: 200
+    keep-alive-duration: 300
+
+# 腾讯云账号相关的信息配置 TODO
+tencent:
+  sms:
+    account:
+      secret-id: "AKIDwf7KGuHNDl22mFQM1PbXBZgW5NPAesoT"
+      secret-key: "PXOyIL7bokQovlJaaJkvpUs0rRkmX1EA"
+      sign_name: "aYuIsOK公众号"
+      sms-sdk-app-id: "1400685885"
+      template-id: "1419520"
+
+# topic.name 属性
+austin:
+  topic:
+    name: "austin"
+
+
